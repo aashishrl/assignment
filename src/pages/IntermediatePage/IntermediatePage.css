@@ -1,0 +1,264 @@
+.intermediate-page {
+  background: #FAFAFA;
+  padding: 30px 133px 80px;
+}
+
+.intermediate-page-header {
+  text-align: center;
+  margin-bottom: 42px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.multipstep-progress-bar {
+  margin-bottom: 56px;
+}
+
+.progress-bar {
+  width: 87%;
+  margin: 0 auto 17px;
+}
+
+ul li {
+  text-align: center;
+}
+
+.straight-line {
+  margin: 0 auto;
+  height: 4px;
+  width: 100%;
+  background: #D7DADC;
+  position: relative;
+}
+
+.straight-line::after {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 3px solid #D7DADC;
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -11px;
+  background-color: white;
+}
+.straight-line1{
+  background: #34C759;
+}
+.straight-line1::before{
+  content:url(../../../public/icon_check2.png) ;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  z-index: 1;
+  top: -8px;
+  left: -11px;
+}
+.straight-line2::after{
+  border-color: #34C759;
+}
+.last-circle {
+  position: relative;
+}
+
+.last-circle::after {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 3px solid #D7DADC;
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -11px;
+  background-color: white;
+}
+
+.straight-line7::after {
+  left: -6px;
+}
+
+.details li {
+  width: 150px;
+}
+
+.form-header {
+  color: #1D1D22;
+  font-size: 20px;
+  font-weight: 550;
+  margin-bottom: 8px;
+}
+
+.form-description {
+  color: #636567;
+  font-size: 13px;
+  font-weight: 450;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Style for each form row */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #404040;
+}
+
+label span {
+  color: red;
+  margin-top: 2px;
+}
+
+.form-row input,
+select {
+  width: 387px;
+  height: 44px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #D7DADC;
+}
+
+.form-row select {
+  opacity: 1;
+  color: #9B9B9B;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form-row input {
+  color: #9B9B9B;
+}
+
+.form-row input::placeholder {
+  font-size: 14px;
+  color: #9B9B9B;
+}
+
+#purpose-using-form,
+#product-description {
+  height: 84px;
+  width: 387px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: 1px solid #D7DADC;
+  color: #9B9B9B;
+}
+
+textarea::placeholder {
+  color: #9B9B9B;
+}
+.intermediate-page-form {
+  padding: 56px 48px;
+  max-width: 894px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+}
+
+.file-upload {
+  grid-column: span 2;
+  /* Make this div span across both columns */
+}
+
+.drag-drop {
+  display: block;
+  border: 1px dashed #E5E7EA;
+  padding: 36px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px;
+  margin: 24px 0 0 0;
+}
+
+.drag-drop.dragging {
+  border-color: #007bff;
+  background: #eef6ff;
+}
+
+.file-upload-label label {
+  color: #1D1D22;
+  display: inline-block;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.file-upload-label {
+  color: #636567;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.file-logo {
+  margin-bottom: 20px;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 200px;
+  border: 1px solid #ddd;
+  margin-top: 12px;
+}
+
+.fileupload-header {
+  font-size: 16px;
+  font-weight: 550;
+  color: #1D1D22;
+  margin: 20px 0 6px 0;
+}
+
+.fileupload-header span {
+  color: red;
+}
+
+.fileupload-description {
+  font-size: 13px;
+  font-weight: 450;
+  color: #636567;
+}
+
+.submit-buttons {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+}
+.submit-buttons button {
+  width: 95px;
+  height: 48px;
+  padding: 14px;
+  border-radius: 10px;
+  font-weight: 550;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.previous {
+  border: 1px solid #1D1D22;
+  color: #1D1D22;
+  background: white;
+}
+.next{
+  border: 1px solid #E50101;
+  color: white;
+  background: #E50101;
+}
+
+
