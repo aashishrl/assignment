@@ -36,6 +36,8 @@ A preview is displayed for uploaded images.
 Dynamic Feedback:
 The upload area changes appearance when a file is being dragged over.
 
+7. Autoprefixer is used to ensure consistent styling across different browsers.
+
 * Problem and Solution
 Problem:
 When building the form layout with CSS Grid, some sections (like the file upload area) needed to span across both columns. By default, these sections were constrained to a single column, disrupting the layout.
